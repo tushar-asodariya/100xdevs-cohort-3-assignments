@@ -1,0 +1,23 @@
+.container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.leftDiv {
+  background-color: blueviolet;
+  height: 100px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rightDiv {
+  background-color: green;
+  height: 100px;
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

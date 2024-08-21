@@ -3,10 +3,8 @@
     background-color: blueviolet;
     width: 1200px;
     height: 500px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
+    margin: auto;
+   
 
 
 }
