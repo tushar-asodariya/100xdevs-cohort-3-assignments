@@ -7,3 +7,4 @@
 
 # Solutions
 ---
+![Horizontal Align Div](https://github.com/tushar-asodariya/100xdevs-cohort-3-assignments/blob/main/web-dev-assignments/week-1/horizontal_align/output.png?raw=true)
