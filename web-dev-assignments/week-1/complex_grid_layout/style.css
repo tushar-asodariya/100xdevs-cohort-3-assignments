@@ -1,0 +1,34 @@
+.container {
+  width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+}
+
+.leftDiv {
+  background-color: blueviolet;
+}
+
+.rightDiv {
+  background-color: green;
+}
+
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.horizontal-center {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+.rightInnerGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}

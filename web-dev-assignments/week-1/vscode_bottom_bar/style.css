@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+.container{
+
+  background-color: black;
+  width: 1200px;
+  margin: auto;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 2rem;
+
+}
+
+.language-panel{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-inline: 2.5rem;
+
+
+
+}
+
+.language-panel img{
+
+  height: 40px;
+  width: auto;
+
+}
+
+.flex{
+
+  display: flex;
+}
+
+.verticalCenter{
+  display: flex;
+
+  align-items: center;
+
+}
