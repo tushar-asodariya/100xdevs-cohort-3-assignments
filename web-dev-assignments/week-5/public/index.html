@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <title>Axios Demo</title>
+  <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.6/axios.min.js">
+    
+        
+        </script>
+
+        <script>
+        async function sendRequest(){
+
+        const a = document.getElementById('a').value
+        const b = document.getElementById('b').value
+
+        const result = await axios.post('/sum', {
+            a:a,b:b
+        })
+
+        console.log(result)
+
+       document.getElementById("sum").innerHTML = result.data.sum   
+    }
+        </script>
+
+
+  </head>
+
+  <body>
+    
+    <input id="a" type="text" placeholder="First value"> </body>
+    <input id="b" type="text" placeholder="Second value"> </input>
+  
+    <button onclick="sendRequest()">Find Sum</button>
+
+    <div id="sum"></div>
+
+  </body>
+</html>
