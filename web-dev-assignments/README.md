@@ -8,3 +8,6 @@
 
 ## 20-sep-25
     - Week - 4, 5, 6  - NodeJs, Middleware, Express Cors, JWT Done
+
+## 21-sep-25
+    - Week - 7  - Mongodb Password hashing and input validation
