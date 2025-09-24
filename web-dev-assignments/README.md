@@ -11,3 +11,6 @@
 
 ## 21-sep-25
     - Week - 7  - Mongodb Password hashing and input validation
+
+## 24-sep-25
+    - Week - 8 - Course selling BE added
