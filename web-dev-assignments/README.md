@@ -16,3 +16,5 @@
     - Week - 8 - Course selling BE added
 ## 25-Sep-25
     -   Week - 9 - React basics - useEffect and useState
+## 26-Sep-25
+    -   Week - 9 - React basics - children and class
